@@ -36,7 +36,8 @@ when we change the state inside our application.
 
 * What are some examples of things that we could store in state?
 counter, timer
-
+## Things I want to know more about:
+* What are the limitations of React?
 
 ### References:
 * [[1]](https://www.w3schools.com/react/react_lifecycle.asp#:~:text=Lifecycle%20of%20Components,Mounting%2C%20Updating%2C%20and%20Unmounting.) 
