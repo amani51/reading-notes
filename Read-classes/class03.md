@@ -1,7 +1,7 @@
-# Class 013
+# Class 03
 ## Passing Functions as Props
 
- ### React Docs - lists, and keys
+### React Docs - lists, and keys
 > The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.[1]
 * What does .map() return?
 return a different element to take the place of the element from the original array. 
