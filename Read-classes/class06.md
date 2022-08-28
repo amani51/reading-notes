@@ -18,10 +18,10 @@
 * What version of node are you running on your machine?
     > v16.17.0
 * What version of npm are you running on your machine?
- > 8.15.0
+    > 8.15.0
 * What command would you type to install a library/package called ‘jshint’?
 
-```npm install -g jshint```
+    ```npm install -g jshint```
 
 * What is node used for?
     It's used for traditional websites and back-end API services but was designed with real-time, push-based architectures in mind.
