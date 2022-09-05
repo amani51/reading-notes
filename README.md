@@ -17,6 +17,7 @@
    * [Class10](./Read-classes/class10.md)
    * [Class11](./Read-classes/class11.md)
    * [Class12](./Read-classes/class12.md)
+   * [Class13](./Read-classes/class13.md)
 * ## Code 401 - Advanced Software Development
 
 ![Reading notes](https://static5.depositphotos.com/1040758/459/i/950/depositphotos_4597179-stock-photo-sticky-note.jpg)
