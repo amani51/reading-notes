@@ -8,7 +8,7 @@
    ![O1&On](https://miro.medium.com/max/720/1*FC0XX0-9Vx7yCS0dTS2Zrw.jpeg)
      * An **O(1)** function takes *constant time*: it means that it doesn’t matter how many elements we have, or how huge our input is: it’ll always take the same amount of time and memory to run our algorithm. 
      * An **O(n)** function is *linear*(the upper bound on a function. (**Worst Case**)): which means that as our input grows (from ten numbers, to ten thousand, to ten million), the space and time that we need to run that algorithm grows linearly. 
------------------------------------
+
 ### Facts and Myths about Python names and values
 The behavior of names and values in Python can be confusing. Like many parts of Python, it has an underlying simplicity that can be hard to discern, especially if you are used to other programming languages. This video [1] explains how it all works, and presents some facts and myths along the way.
 * **Fact:**
@@ -26,7 +26,7 @@ The behavior of names and values in Python can be confusing. Like many parts of 
     * Python assigns mutable and immutable values differently.
     * Python has no variables.
     * Python is confusing.
---------------------------------------
+
 ### Awesome Python Environment
 ![awesome](https://files.realpython.com/media/Setting-Up-an-Effective-Terminal-Environment-for-Python-Development_Watermarked.856435b7bcb0.jpg)
 * **The Interpreter.**
@@ -40,7 +40,7 @@ The behavior of names and values in Python can be confusing. Like many parts of 
     > *Mypy* is a static type checker for python code, that finds errors before they appear.
 * **Automate the Automation**
     > *Pre-commit* is a tool that executes checks before you commit code to your repository 
--------------------------------------
+
 ### Python Module of the Week
 
 * **PyMOTW-3** is a series of articles written by *"Doug Hellmann"* to demonstrate how to use the modules of the Python 3 standard library. It is based on the original PyMOTW series, which covered Python 2.7. [2]
@@ -53,7 +53,7 @@ The behavior of names and values in Python can be confusing. Like many parts of 
         Concurrency and Multithreading
         Internationalization
         Networking
--------------------------------------
+
 ### References:
 * [[1]](https://www.youtube.com/watch?v=_AEJHKGk9ns) 
 * [[2]](https://pymotw.com/3/index.html) 
