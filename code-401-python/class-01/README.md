@@ -46,7 +46,7 @@ The behavior of names and values in Python can be confusing. Like many parts of 
 * **PyMOTW-3** is a series of articles written by *"Doug Hellmann"* to demonstrate how to use the modules of the Python 3 standard library. It is based on the original PyMOTW series, which covered Python 2.7. [2]
     The site offers breakdowns of the Python Standard Library modules, including, but not limited to:
 
-    >   Text Manipulation
+        Text Manipulation
         Data Structures
         Algorithms
         Cryptography
