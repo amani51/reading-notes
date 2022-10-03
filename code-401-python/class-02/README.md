@@ -21,20 +21,20 @@ The most common things that programmers think about are refactoring and unit tes
         How we can grow our software design consciously and well, just building what is needed to make the test pass. When we are writing tests we are forced to think about the design first and how we can break it into small pieces.
 #### If name equals main
 Before executing code, Python interpreter reads source file and define few special variables/global variables.[2]
-```
+
 # Python program to execute
 # main directly
-print ("Always executed")
- 
-if __name__ == "__main__":
-    print ("Executed when invoked directly")
-else:
-    print ("Executed when imported")
-```
+    print ("Always executed")
+    
+    if __name__ == "__main__":
+        print ("Executed when invoked directly")
+    else:
+        print ("Executed when imported")
+
 1. All of the code that is at indentation level 0 [Block 1] gets executed. Functions and classes that are defined are, well, defined, but none of their code runs.
 2. execute file_name.py directly => ```__name__ = "__main__"``` 
 output => Always executed & Executed when invoked directly
-3. script is getting imported by some other module at that time ```__name__ = "module_name"```
+3. script is getting imported by some other module at that time __name__ = "module_name"
 output => Always executed & Executed when imported
 * Advantages : 
     1. Every Python module has it’s __name__ defined and if this is __main__, it implies that the module is being run standalone by the user and we can do corresponding appropriate actions.
