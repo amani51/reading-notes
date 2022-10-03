@@ -21,6 +21,7 @@
    * [Class14](./Read-classes/class14.md)
 * ## Code 401 - Advanced Software Development
    * [Class-01](./code-401-python/class-01/README.md)
+   * [Class-02](./code-401-python/class-02/README.md)
 
 
    
