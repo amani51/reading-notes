@@ -5,16 +5,19 @@
 
 ![Read files](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq-ZZ5X3JcI9f2SHjTPptHkpNqPdwIX0kVEg&usqp=CAU)
 - **Big O notation** is used in *Computer Science* to describe the performance or complexity of an algorithm. Big O specifically describes the **worst-case scenario**, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.
-![big o](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE-tjS6FtIhCG1ZDPckXhnZIOUVT_q4jWiGg&usqp=CAU)
 
-    - O(1) - Constant time complexity
+![big o](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE-tjS6FtIhCG1ZDPckXhnZIOUVT_q4jWiGg&usqp=CAU)
+ 
+- O(1) - Constant time complexity
+
     ```python
     if a > b:
         return True
     else:
         return False
     ```
-    - O(n) - Linear time complexity
+- O(n) - Linear time complexity
+
     ```python 
     def search_algo(num, items):
         for item in items:
@@ -26,7 +29,7 @@
 
     print(search_algo(2, nums))
     ```
-    - O(log n) - Logarithmic time complexity
+- O(log n) - Logarithmic time complexity
     ```python
     def foo(x):
         n = len(x)
@@ -38,11 +41,11 @@
     ```
 
 
-    - O(n²) - Quadratic time complexity
+- O(n²) - Quadratic time complexity
     ```python
-    for x in data:
-        for y in data:
-            print(x, y)
+        for x in data:
+            for y in data:
+                print(x, y)
     ```
 ### Additional Resources
 #### A friendly intro to Big O Notation
