@@ -52,7 +52,9 @@
 - It is transferring the task of creating the object to someone else and directly using the dependency.
 - **Types of dependency injection**:
     1. **constructor injection**: the dependencies are provided through a class constructor.
-        ```python class Client:
+
+        ```python 
+        class Client:
         def __init__(self, foo: Foo, bar: Bar):
             if foo is None:
                 raise ValueError("foo must be provided")
