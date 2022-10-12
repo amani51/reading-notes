@@ -52,51 +52,50 @@
 - It is transferring the task of creating the object to someone else and directly using the dependency.
 - **Types of dependency injection**:
     1. **constructor injection**: the dependencies are provided through a class constructor.
-    ```python class Client:
-    def __init__(self, foo: Foo, bar: Bar):
-        if foo is None:
-            raise ValueError("foo must be provided")
-        if bar is None:
-            raise ValueError("bar must be provided")
-        self.foo = foo
-        self.bar = bar
-        
-    def do_something(self):
-        self.foo.do_something()
-        self.bar.do_something_else()
+        ```python class Client:
+        def __init__(self, foo: Foo, bar: Bar):
+            if foo is None:
+                raise ValueError("foo must be provided")
+            if bar is None:
+                raise ValueError("bar must be provided")
+            self.foo = foo
+            self.bar = bar
+            
+        def do_something(self):
+            self.foo.do_something()
+            self.bar.do_something_else()
 
-    ```
+        ```
     2. **setter injection**: the client exposes a setter method that the injector uses to inject the dependency.
-    ```python 
-    class Client:
-    def __init__(self):
-        self.foo = None
-        self.bar = None
+        ```python 
+        class Client:
+        def __init__(self):
+            self.foo = None
+            self.bar = None
 
-    def set_foo(self, foo: Foo):
-        if foo is None:
-            raise ValueError("foo must be provided")
-        self.foo = foo
+        def set_foo(self, foo: Foo):
+            if foo is None:
+                raise ValueError("foo must be provided")
+            self.foo = foo
 
-    def set_bar(self, bar: Bar):
-        if bar is None:
-            raise ValueError("foo must be provided")
-        self.bar = bar
+        def set_bar(self, bar: Bar):
+            if bar is None:
+                raise ValueError("foo must be provided")
+            self.bar = bar
 
-    def validate_dependencies(self):
-        if self.foo is None:
-            raise ValueError("foo has not been set")
-        if self.bar is None:
-            raise ValueError("bar has not been set")
+        def validate_dependencies(self):
+            if self.foo is None:
+                raise ValueError("foo has not been set")
+            if self.bar is None:
+                raise ValueError("bar has not been set")
 
-    def do_something(self):
-        self.validate_dependencies()
+        def do_something(self):
+            self.validate_dependencies()
 
-        self.foo.do_something()
-        self.bar.do_something_else()
+            self.foo.do_something()
+            self.bar.do_something_else()
 
-    ```
-
+        ```
     3. **interface injection**: the dependency provides an injector method that will inject the dependency into any client passed to it. 
 - The **responsibility** of dependency injection’s :
     1. Create the objects
