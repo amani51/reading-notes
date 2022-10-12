@@ -25,8 +25,8 @@
    * [Class-03](./code-401-python/class-03/README.md)
    * [Class-04](./code-401-python/class-04/README.md)
    * [Class-05](./code-401-python/class-05/README.md)
+   * [Class-06](./code-401-python/class-06/README.md)
 
 
-   
-![Reading notes](https://static5.depositphotos.com/1040758/459/i/950/depositphotos_4597179-stock-photo-sticky-note.jpg)
+
 
