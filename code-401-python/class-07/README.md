@@ -102,7 +102,8 @@ with open('file_name.csv', 'r') as f:
     int_conv= ssv_csv.astype(int) # convert an array to a different type
     
     ```
-    - The method will actually copy the array, and return a new array with the specified data type
+    - The method will actually copy the array, and return a new array with the specified data type.
+    
     ```python
     int_conv.dtype.name # int64
     ```
