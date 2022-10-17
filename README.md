@@ -27,7 +27,7 @@
    * [Class-05](./code-401-python/class-05/README.md)
    * [Class-06](./code-401-python/class-06/README.md)
    * [Class-07](./code-401-python/class-07/README.md)
-
+   * [Class-08](./code-401-python/class-08/README.md)
 
 
 
