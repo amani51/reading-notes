@@ -10,7 +10,7 @@
     4. **Parent node**: A parent-node can have multiple child nodes.
     5. **Child node**: A child has only one parent node.
     6. **Path**: The path is a set of successive edges from the initial node to the terminal node.
-    ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc6ktk05ovh2Tg3fuQXXoD7YjvKl3GGylUPQ&usqp=CAU)
+- ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc6ktk05ovh2Tg3fuQXXoD7YjvKl3GGylUPQ&usqp=CAU)
 - **Types of Tree**
     - **Binary Tree**
         - In the data structure, a binary tree is such type of tree in which each node has only a maximum of two children. Those are called the left child and right child.
