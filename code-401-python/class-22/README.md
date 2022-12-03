@@ -24,7 +24,7 @@
     - ```method```: The HTTP method used to send the data: post or get.
         - The ```POST``` method should always be used if the data is going to result in a change to the server's database, because **it can be made more resistant to cross-site forgery request attacks**.
         - The ```GET``` method should only be used for forms that don't change user data (for example, a search form). It is recommended for when you want to be able to bookmark or share the URL.
------------
+
 ### Django form handling process
 ![](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms/form_handling_-_standard.png)
 - Based on the diagram above, the main things that Django's form handling does are:
