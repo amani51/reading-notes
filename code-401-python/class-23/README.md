@@ -1,4 +1,4 @@
-# Class-22
+# Class-23
 ## Django Custom User
 #### Custom User Model
 - Django's built-in User model is good enough for many cases while also having a room for customization. Why would you need to tweak some of the functionalities of the default User model?
