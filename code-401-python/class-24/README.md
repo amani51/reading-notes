@@ -12,22 +12,22 @@
 - The order of data elements in a dictionary is **not fixed.**
 - Accessing Values in Dictionary
     To access dictionary elements, you can use the familiar square brackets along with the key to obtain its value.
-```python
-# Declare a dictionary 
-dict = {'Name': 'Eman', 'Age': 12, 'Class': 'Seventh'}
+    ```python
+    # Declare a dictionary 
+    dict = {'Name': 'Eman', 'Age': 12, 'Class': 'Seventh'}
 
-# Accessing the dictionary with its key
-print "dict['Name']: ", dict['Name'] #dict['Name']:  Eman
-print "dict['Age']: ", dict['Age'] #dict['Age']:  12
-```
+    # Accessing the dictionary with its key
+    print "dict['Name']: ", dict['Name'] #dict['Name']:  Eman
+    print "dict['Age']: ", dict['Age'] #dict['Age']:  12
+    ```
 - Updating Dictionary
     You can update a dictionary by adding a new entry or a key-value pair, modifying an existing entry, or deleting an existing entry
-```python
-dict['Age'] = 13; # update existing entry
-dict['School'] = "Allan School"; # Add new entry
-print "dict['Age']: ", dict['Age'] #dict['Age']: 13
-print "dict['School']: ", dict['School'] #dict['School']: Allan
-```
+    ```python
+    dict['Age'] = 13; # update existing entry
+    dict['School'] = "Allan School"; # Add new entry
+    print "dict['Age']: ", dict['Age'] #dict['Age']: 13
+    print "dict['School']: ", dict['School'] #dict['School']: Allan
+    ```
 - Delete Dictionary Elements
     You can either remove individual dictionary elements or clear the entire contents of a dictionary. You can also delete entire dictionary in a single operation.To explicitly remove an entire dictionary, just use the del statement.
     ```python
@@ -77,53 +77,53 @@ If a collision occurs after applying a hash function h(k), then another hash fun
 
 3. Universal Hashing
     In Universal hashing, the hash function is chosen at random independent of keys.
-```python
-# Python program to demonstrate working of HashTable 
+    ```python
+    # Python program to demonstrate working of HashTable 
 
-hashTable = [[],] * 10
+    hashTable = [[],] * 10
 
-def checkPrime(n):
-    if n == 1 or n == 0:
-        return 0
-
-    for i in range(2, n//2):
-        if n % i == 0:
+    def checkPrime(n):
+        if n == 1 or n == 0:
             return 0
 
-    return 1
+        for i in range(2, n//2):
+            if n % i == 0:
+                return 0
+
+        return 1
 
 
-def getPrime(n):
-    if n % 2 == 0:
-        n = n + 1
+    def getPrime(n):
+        if n % 2 == 0:
+            n = n + 1
 
-    while not checkPrime(n):
-        n += 2
+        while not checkPrime(n):
+            n += 2
 
-    return n
-
-
-def hashFunction(key):
-    capacity = getPrime(10)
-    return key % capacity
+        return n
 
 
-def insertData(key, data):
-    index = hashFunction(key)
-    hashTable[index] = [key, data]
+    def hashFunction(key):
+        capacity = getPrime(10)
+        return key % capacity
 
-def removeData(key):
-    index = hashFunction(key)
-    hashTable[index] = 0
 
-insertData(123, "apple")
-insertData(432, "mango")
-insertData(213, "banana")
-insertData(654, "guava")
+    def insertData(key, data):
+        index = hashFunction(key)
+        hashTable[index] = [key, data]
 
-print(hashTable)
+    def removeData(key):
+        index = hashFunction(key)
+        hashTable[index] = 0
 
-removeData(123)
+    insertData(123, "apple")
+    insertData(432, "mango")
+    insertData(213, "banana")
+    insertData(654, "guava")
 
-print(hashTable)
-```
+    print(hashTable)
+
+    removeData(123)
+
+    print(hashTable)
+    ```
