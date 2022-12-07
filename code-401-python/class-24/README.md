@@ -30,23 +30,23 @@ print "dict['School']: ", dict['School'] #dict['School']: Allan
 ```
 - Delete Dictionary Elements
     You can either remove individual dictionary elements or clear the entire contents of a dictionary. You can also delete entire dictionary in a single operation.To explicitly remove an entire dictionary, just use the del statement.
-```python
-dict = {'Name': 'Eman', 'Age': 12, 'Class': 'Seventh'}
-del dict['Name']; # remove entry with key 'Name'
-dict.clear();     # remove all entries in dict
-del dict ;        # delete entire dictionary
+    ```python
+    dict = {'Name': 'Eman', 'Age': 12, 'Class': 'Seventh'}
+    del dict['Name']; # remove entry with key 'Name'
+    dict.clear();     # remove all entries in dict
+    del dict ;        # delete entire dictionary
 
-print "dict['Age']: ", dict['Age']
-print "dict['School']: ", dict['School']
+    print "dict['Age']: ", dict['Age']
+    print "dict['School']: ", dict['School']
 
-# This produces the following result. Note that an exception is raised because after del dict dictionary does not exist anymore.
+    # This produces the following result. Note that an exception is raised because after del dict dictionary does not exist anymore.
 
-# dict['Age']:
-# Traceback (most recent call last):
-#    File "test.py", line 8, in <module>
-#       print "dict['Age']: ", dict['Age'];
-# TypeError: 'type' object is unsubscriptable
-```
+    # dict['Age']:
+    # Traceback (most recent call last):
+    #    File "test.py", line 8, in <module>
+    #       print "dict['Age']: ", dict['Age'];
+    # TypeError: 'type' object is unsubscriptable
+    ```
 #### HashTable 
 - Let k be a key and h(x) be a hash function.
 
