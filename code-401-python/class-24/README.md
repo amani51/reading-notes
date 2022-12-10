@@ -74,7 +74,6 @@ If a collision occurs after applying a hash function h(k), then another hash fun
 ##### Hash Functions
 1. Division Method
 2. Multiplication Method
-
 3. Universal Hashing
     In Universal hashing, the hash function is chosen at random independent of keys.
     ```python
