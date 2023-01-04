@@ -49,3 +49,5 @@
    * [Class-29](./code-401-python/class-29/README.md)
    * [Class-31](./code-401-python/class-31/README.md)
    * [Class-32](./code-401-python/class-32/README.md)
+   * [Class-33](./code-401-python/class-33/README.md)
+   * [Class-34](./code-401-python/class-34/README.md)
