@@ -52,3 +52,4 @@
    * [Class-33](./code-401-python/class-33/README.md)
    * [Class-34](./code-401-python/class-34/README.md)
    * [Class-35](./code-401-python/class-35/README.md)
+   * [Class-36](./code-401-python/class-36/README.md)
